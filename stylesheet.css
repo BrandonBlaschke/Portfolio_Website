@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body {
+  background-color: #121212;
+}
+
+#jsFrame {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: -2;
+  overflow: hidden;
+  pointer-events: all;
+  border: 0;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img#icon {
+  display: inline;
+}
+
+img#giticon {
+  display: inline;
+}
+
+img#my_picture {
+  float: right;
+  border: 5px black;
+  border-style: inset ;
+}
+
+p {
+  font-family: "Montserrat", "Courier New", "Verdana", "Geneva";
+  font-size: 1.2em;
+  color: white;
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 1000px) {
+  p {
+    font-size: 1.8em;
+  }
+}
+
+hr {
+  border-color: white;
+}
+
+h1 {
+  font-family: "Montserrat", "Courier New", "Verdana", "Geneva";
+  color: white;
+  font-weight: bold;
+}
+
+h2 {
+  font-family: "Montserrat", "Courier New", "Verdana", "Geneva";
+  color: white;
+  margin-bottom: 1em;
+  font-weight: bold;
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 1000px) {
+  h2 {
+    font-size: 3em;
+  }
+}
+
+h3 {
+  font-family: "Montserrat", "Courier New", "Verdana", "Geneva";
+  color: white;
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+
+ul {
+  font-family: "Montserrat", "Consolas", "Verdana", "Geneva";
+  font-size: 25px;
+}
+
+a {
+  background-color: transparent;
+  text-decoration: none;
+  color: white;
+  font-size: 1.2em;
+  font-family: "Montserrat", "Consolas", "Verdana", "Geneva";
+}
+
+a:visited {
+  color: white;
+  font-size: 1.2em;
+  text-decoration: none;
+  font-family: "Montserrat", "Consolas", "Verdana", "Geneva";
+}
+
+a:hover {
+  color: #c4c4c4;
+  font-size: 1.2em;
+}
+
+.bottom_line {
+  border-bottom: 3px solid white;
+  width: fit-content;
+  border-radius: 2px;
+}
+
+.indent {
+  margin-left: 1em;
+}
+
+ul {
+  color: white;
+  font-size: 1.2em;
+  margin-bottom: 2em;
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 1000px) {
+  ul {
+    font-size: 1.6em;
+  }
+}
+
+.small {
+  color: white;
+  font-size: 1em;
+  margin-left: 3em;
+  font-style: italic;
+  margin-top: -1em;
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 1000px) {
+  .small {
+    font-size: 1.5em;
+  }
+}
+
+.color1 {
+  background-color: #1a1a1a;
+  padding: 5em;
+}
+
+.color2 {
+  background-color: #262626;
+  padding: 5em;
+}
+
+.color3 {
+  background-color: #333333;
+  padding: 5em;
+}
+
+.color4 {
+  background-color: #404040;
+  padding: 5em;
+}
+
+.color5 {
+  background-color: #4d4d4d;
+  padding: 5em;
+}
+
+#content1 {
+  padding: 3em;
+}
